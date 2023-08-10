@@ -14,7 +14,7 @@ h1:hover {
 body {
     margin-left: 100px;
     margin-right: 100px;
-    background: url("images/inperson099.png") no-repeat fixed center;
+    background: rgba(255, 105, 180, 0.153);
 }
 
 ol {
