@@ -3,30 +3,22 @@ h1 {
     font-size: 48px;
     margin-left: 2%;
     margin-right: 2%;
-    text-shadow: 10px 10px 10px rgb(170, 170, 170);
-    background-color: white;
-    padding: 20px;
-    border-radius: 40px;
-    box-shadow: 10px 10px black;
+    text-shadow: 10px 10px 7px rgb(170, 170, 170);
+    transition: all 1s ease-out;
 }
 
 h1:hover {
     text-shadow: 10px 10px 20px rgb(170, 170, 170);
-    transition: 1s;
 }
 
 body {
     margin-left: 100px;
     margin-right: 100px;
-    /* background-image: url("images/background.png"); */
+    background-image: url("images/background.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: hsla(330, 100%, 71%, 0.2);
-}
-
-ol {
-    line-height: 150%;
 }
 
 @font-face {
